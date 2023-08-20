@@ -20,8 +20,8 @@ const Frontend = () => {
                     <i class="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">CSS</h3>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -29,8 +29,8 @@ const Frontend = () => {
                     <i class="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">Javascript</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
             </div>
@@ -40,8 +40,8 @@ const Frontend = () => {
                     <i class="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">Bootstrap</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
 
@@ -49,8 +49,8 @@ const Frontend = () => {
                     <i class="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">Git</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
 
@@ -58,10 +58,11 @@ const Frontend = () => {
                     <i class="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">React</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
