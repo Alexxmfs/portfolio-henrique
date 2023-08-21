@@ -10,7 +10,7 @@ const Services = () => {
 
   return (
     <section className="services section" id="services">
-        <h3 className="skills__title">Frontend Developer</h3>
+        <h3 className="section__title">Frontend Developer</h3>
         <span className='section__subtitle'>What i offer</span>
 
         <div className="services__container container grid">
@@ -22,7 +22,7 @@ const Services = () => {
                     </h3>
                 </div>
 
-                <span className="services__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                <span className="services__button" onClick={() => toggleTab(1)}>Ver Mais <i className="uil uil-arrow-right services__button-icon"></i></span>
 
                 <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                     <div className='services__modal-content'>
@@ -63,7 +63,7 @@ const Services = () => {
                     <h3 className="services__title">Ui/Ux <br /> Designer</h3>
                 </div>
 
-                <span onClick={() => toggleTab(2)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                <span onClick={() => toggleTab(2)} className="services__button">Ver Mais <i className="uil uil-arrow-right services__button-icon"></i></span>
 
                 <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                     <div className='services__modal-content'>
@@ -104,7 +104,7 @@ const Services = () => {
                     <h3 className="services__title">Visual <br /> Designer</h3>
                 </div>
 
-                <span onClick={() => toggleTab(3)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                <span onClick={() => toggleTab(3)} className="services__button">Ver Mais <i className="uil uil-arrow-right services__button-icon"></i></span>
 
                 <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                     <div className='services__modal-content'>   

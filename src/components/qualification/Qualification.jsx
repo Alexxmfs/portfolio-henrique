@@ -96,7 +96,7 @@ const Qualification = () => {
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Design</h3>
+                            <h3 className="qualification__title">Only Fans</h3>
                             <span className="qualification__subtitle">Spain - Institute</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> 2021 - Present
