@@ -31,7 +31,7 @@ export const Footer = () => {
                     </a>
                 </div>
 
-                <span className='footer__copy'>&#169; Desenvolvido por Alexxmfs</span>
+                <span className='footer__copy'>&#169; Desenvolvido por <a href='https://github.com/Alexxmfs' target='_blank'>Alexxmfs</a></span>
             </div>
         </footer>
     )
