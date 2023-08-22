@@ -57,7 +57,7 @@ const Contact = () => {
                         <label className="contact__form-tag">Name</label>
                         <input type="text" name="name" className='contact__form-input' placeholder='Insert your name'/>     
                     </div>
-                    <div className="contact__form-div">
+                    <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Project</label>
                         <textarea name='project' cols='30' rows='10' className='contact__form-input' placeholder='Write your project'></ textarea>
                     </div>
