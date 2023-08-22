@@ -6,22 +6,22 @@ const Info = () => {
         <div className='about__box'>
             <i class="bx bx-award about__icon"></i>
 
-            <h3 className='about__title'>Experience</h3>
-            <span className='about__subtitle'>8 Years Working</span>
+            <h3 className='about__title'>Experiência</h3>
+            <span className='about__subtitle'>2 Anos Estudando</span>
         </div>
 
         <div className='about__box'>
             <i class="bx bx-briefcase-alt about__icon"></i>
 
-            <h3 className='about__title'>Completed</h3>
-            <span className='about__subtitle'>48+ Projects</span>
+            <h3 className='about__title'>Completou</h3>
+            <span className='about__subtitle'>5+ Projetos</span>
         </div>
 
         <div className='about__box'>
             <i class="bx bx-support about__icon"></i>
 
-            <h3 className='about__title'>Support</h3>
-            <span className='about__subtitle'>Online 24/7</span>
+            <h3 className='about__title'>Inglês</h3>
+            <span className='about__subtitle'>Intermediário</span>
         </div>
     </div>
   )
