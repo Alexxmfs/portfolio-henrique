@@ -7,13 +7,21 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
+  /* --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --container-color: #fff; */
+
+  --hue: 220; /* Ajustando para um tom de azul (pode variar) */
+  --sat: 100%; /* Ajustando a saturação para 100% */
+  --title-color: hsl(var(--hue), var(--sat), 90%); /* Título mais claro */
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%); /* Título branco */
+  --text-color: hsl(var(--hue), var(--sat), 70%); /* Texto mais claro */
+  --body-color: hsl(var(--hue), var(--sat), 5%); /* Fundo bem escuro */
+  --container-color: hsl(var(--hue), var(--sat), 2%);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
