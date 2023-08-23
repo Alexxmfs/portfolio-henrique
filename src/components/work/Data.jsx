@@ -1,14 +1,16 @@
-import Work1 from '../../assets/work1.jpg';
+import Work1 from '../../assets/addonMine.png';
 import Work2 from '../../assets/work2.jpg';
 import Work3 from '../../assets/work3.jpg';
 import Work4 from '../../assets/work4.jpg';
-import Work5 from '../../assets/work5.jpg';
+import Work5 from '../../assets/saga.jpeg';
+
 
 export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: "Web design",
+        title: "Minecraft Addon",
+        link: 'https://github.com/Alexxmfs/Candy_World_Minecraft',
         category: "web",
       },
       {
@@ -32,7 +34,8 @@ export const projectsData = [
       {
         id: 5,
         image: Work5,
-        title: "Web design",
+        title: "Arrumo o Quarto",
+        link: 'https://www.youtube.com/watch?v=Yx7f78ARgSA&ab_channel=HenriqueCastro',
         category: "web",
       },
 ]
